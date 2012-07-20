@@ -1,0 +1,1 @@
+require "../lib/admin/createStudent/interactors/create_student"
