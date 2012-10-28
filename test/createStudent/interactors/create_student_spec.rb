@@ -30,6 +30,8 @@ describe "The CreateStudent Interactor" do
 
   end
 
+  it "B-0001"
+
   private
 
   def create_gateway_valid_user
