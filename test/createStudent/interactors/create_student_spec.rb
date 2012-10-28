@@ -13,6 +13,8 @@ describe "The CreateStudent Interactor" do
     create_student_interactor.create_student(valid_student_request).should eq(USER_CREATED_RESPONSE)
   end
 
+  it "B-0002"
+
   it "should not create a student when the name is missing" do
     create_student_interactor = CreateStudent.new
     create_student_interactor.create_student(missing_name_student_request).should eq(MISSING_NAME_RESPONSE)
