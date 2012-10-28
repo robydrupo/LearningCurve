@@ -6,6 +6,7 @@ describe "The CreateStudent Interactor" do
   valid_student_request = Hash["name" => "Roberto Druetto", "birthDate" => "07/09/1982"]
   missing_name_student_request = Hash["birthDate" => "07/09/1982"]
   missing_birth_date_student_request = Hash["name" => "Roberto Druetto"]
+  version = Hash["name" => "B-0003"]
 
   it "should create a student when valid data is passed on" do
     create_student_interactor = CreateStudent.new
